@@ -1,0 +1,20 @@
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+div a {
+    background-color: rgb(80, 79, 81);
+    padding: .3rem 1rem;
+    margin: .2rem .15rem;
+    color: antiquewhite;
+    border-radius: 10rem;
+    font-weight: 600;
+
+    
+}
+div a:hover{
+    background-color: beige;
+    color: black;
+}
