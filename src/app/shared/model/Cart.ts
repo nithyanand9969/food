@@ -2,6 +2,7 @@ import { CartItem } from "./cartitem";
 
 export class Cart{
     item:CartItem[]=[];
+  items: any;
 
     get totalPrice():number{
         let totalPrice = 0;

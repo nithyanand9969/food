@@ -2,6 +2,7 @@ import { Foods } from "./food";
 
 export class CartItem{
     price: any;
+  static quantity: number;
     constructor(food:Foods){
         this.food=food;
        
